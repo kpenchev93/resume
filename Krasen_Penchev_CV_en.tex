@@ -1,0 +1,185 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage{marvosym}
+\usepackage{fontspec}
+\usepackage{xunicode,xltxtra,url,parskip}
+\RequirePackage{color,graphicx}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage[big]{layaureo}
+
+\usepackage{supertabular}
+\usepackage{titlesec}
+
+\usepackage{hyperref}
+\definecolor{linkcolour}{rgb}{0,0.2,0.6}
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour, linkcolor=linkcolour}
+
+\usepackage{graphicx}
+\usepackage{array}
+
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[
+BoldFont=Lora-Bold.ttf,
+ItalicFont=Lora-Italic.ttf,
+BoldItalicFont=Lora-BoldItalic.ttf
+]
+{Lora-Regular.ttf}
+\setsansfont[
+BoldFont = IstokWeb-Bold.ttf,
+ItalicFont = IstokWeb-Italic.ttf,
+BoldItalicFont = IstokWeb-BoldItalic.ttf
+]
+{IstokWeb-Regular.ttf}
+
+
+\titleformat{\section}{\Large\scshape\raggedright\sffamily}{}{0em}{}
+\titlespacing{\section}{0pt}{3pt}{3pt}
+
+\hyphenation{im-pre-se}
+
+\begin{document}
+
+\pagestyle{empty}
+
+\par{
+    \centering
+    {\Huge\sffamily {\textsc{Krasen Penchev}}}
+\bigskip\par}
+
+\section{\protect\includegraphics[height=\fontcharht\font`W]{user} PERSONAL DATA}
+
+\begin{tabular}{rl}
+    Place and Date of Birth: & Dobrich, Bulgaria | 23.09.1993 \\
+%\emph{Address}: & Strandzha 47, ap. 3, Varna, Bulgaria \\
+    Phone: & +359 889 697 353 \\
+    Email: & \href{mailto:krasen4161@gmail.com}{krasen4161@gmail.com} \\
+    LinkedIn: & \href{https://www.linkedin.com/in/kpenchev/}{https://www.linkedin.com/in/kpenchev/} \\
+    \hline
+\end{tabular}
+
+\section{\protect\includegraphics[height=\fontcharht\font`W]{briefcase} WORK EXPERIENCE}
+
+\begin{tabular}{|p{11cm}l}
+\textbf{Front-end Web Developer} & 05.17 - present \\
+\emph{MentorMate Bulgaria} & \\
+\footnotesize{As an employee of MentorMate Bulgaria I am currently working for an american client in the healthcare industry. The main technology I am using is \emph{AngularJS 1.5}. Some of the other technologies included in the front-end stack are \emph{Gulp, Bower and Git}.} & \\ 
+\end{tabular}
+
+\begin{tabular}{|p{11cm}l}
+\textbf{Front-end Web Developer} & 05.16 - 05.17 \\
+\emph{SBND Technologies} & \\ 
+\footnotesize{When I first joined the company I was part of a
+team which developed the front-end of a \emph{WordPress} theme. After that I worked for \emph{SAP AG} as an external contractor on two projects. The first one was a content platform prototype written in vanilla \emph{JavaScript}. The second one was again a \href{https://help.sap.com/}{content platform} which went live in Q1 of 2017. While working on the aforementioned project I gained knowledge and experience in \emph{AngularJS}.} & \\
+\end{tabular}
+
+\begin{tabular}{|p{11cm}l}
+\textbf{Junior developer} & 09.15 - 05.16 \\
+\emph{Shopmetrics, Inc.} & \\
+\footnotesize{I started as an intern and shortly after that I was promoted to junior position. My main tasks included optimization of code performance of the company’s products, mainly an application for creating presentations called \href{https://www.surveo.com/index.asp}{\emph{Surveo}}. I mostly worked in the front-end, specifically on developing JavaScript functionality. As a part of the Shopmetrics team, I became experienced in vanilla \emph{JavaScript, jQuery} and \emph{ExtJS}.} & \\ 
+\end{tabular}
+
+\begin{tabular}{|p{11cm}l}
+\textbf{System administrator} & 06.15 - 09.15 \\
+\emph{Albena JSCo} & 06.14 - 09.14 \\
+\footnotesize{I was responsible for installation and configuration, support of operation, and maintenance of computer systems’ hardware and software. The other part of my responsibilities was  providing internet connection support for all the \emph{30+ hotels} on the territory of Albena Resort.} & \normalsize{06.13 - 09.13} \\ 
+\end{tabular}
+
+\section{\protect\includegraphics[height=\fontcharht\font`W]{tools} SKILLS}
+
+\begin{tabular}{|l}
+    \textbf{Programming} \\
+    JavaScript, HTML5, CSS3, Python, SQL, AWK \\
+\end{tabular}
+
+\begin{tabular}{|l}
+    \textbf{Frameworks and libraries} \\
+    AngularJS 1.5, Vue.js, jQuery, Sass, Flask, Falcon, PostgreSQL \\
+\end{tabular}
+
+\begin{tabular}{|l}
+    \textbf{Tools} \\
+    Regular expressions, Sed, Grep, Bash, Vim, Gulp, Adobe Photoshop, \LaTeX  \\
+\end{tabular}
+
+\begin{tabular}{|l}
+    \textbf{Operating systems} \\
+    \**NIX/Linux, Windows (XP-10)\\
+\end{tabular}
+
+\begin{tabular}{|l}
+    \textbf{Soft skills} \\
+    Communication, collaborating, initiative, competitive \\
+\end{tabular}
+
+\section{\protect\includegraphics[height=\fontcharht\font`W]{book} EDUCATION}
+
+\begin{tabular}{|p{11cm}l}
+\textbf{University of Economics - Varna} & 2016 - 2017 \\
+    \emph{Business Information Systems, master's degree} & \\ 
+\end{tabular}
+
+\begin{tabular}{|p{11cm}l}
+\textbf{University of Economics - Varna} & 2012 - 2016 \\
+    \emph{Business Information Systems, bachelor's degree} & \\
+\footnotesize{Graduated with honors after successful submission and defence of bachelor thesis on
+    \href{https://drive.google.com/file/d/0BwIBVx4v5C8qSFZ2eXpOMTN2TE0/view}{"Universal Named Entity Recognition System Based on Hidden Markov Models"}.} & \\
+\end{tabular}
+
+\section{\protect\includegraphics[height=\fontcharht\font`W]{diploma} INDEPENDENT COURSEWORK}
+
+\begin{tabular}{|p{11cm}l}
+\textbf{Object-oriented Programming in JavaScript – ES6} & 02.2017 \\
+    \emph{Pluralsight} & \\
+    \footnotesize{Intermediate course for teaching the new syntax and concepts of object-oriented
+programming in ECMAScript 2015.} \\
+\end{tabular}
+
+\begin{tabular}{|p{11cm}l}
+\textbf{Learning Responsive Web Design} & 08.2015 \\
+    \emph{Infinite Skills} & \\
+    \footnotesize{Principles, techniques and best practices of responsive web design. The focus of the course was the effective use of media queries.} \\
+\end{tabular}
+
+\begin{tabular}{|p{11cm}l}
+\textbf{An Introduction to Interactive Programming in Python (Part 1 \& 2)} & 05.2015 - 08.2015 \\
+    \emph{Rice University, USA} & \\
+    \footnotesize{Introduction to the Python programming language. The course’s focus was on building interactive applications and games.} \\
+\end{tabular}
+
+\section{\protect\includegraphics[height=\fontcharht\font`W]{medal} ACHIEVEMENTS}
+
+\begin{tabular}{|p{11cm}l}
+\textbf{Huawei’s “Seeds for the future” program honoree} & 04.2017 \\
+    \footnotesize{I was selected to be a part of the Bulgarian “seeds for the future” with 9 other students from all around the country. Completed successfully two training programs, one in chinese and one in telecomunication technologies, in Huawei’s headquarters in Shenzhen, China.} \\
+\end{tabular}
+
+\begin{tabular}{|p{11cm}l}
+\textbf{International conference "TECHSYS 2015", Technical University - Sofia} & 05.2015 \\
+    \footnotesize{Participated in the conference with a report on “Methods for improving the
+implementation of information technologies in the higher education in Bulgaria”. The
+report is published in the vol. 21 of “Fundamental Sciences and Applications” journal.} \\
+\end{tabular}
+
+\begin{tabular}{|p{11cm}l}
+\textbf{Winner of the "Are you creative enough?" competition} & 07.2014 \\
+    \footnotesize{Awarded first place in the "Are you creative enough?" competition, organized by First Online Solutions, for designing a milkbox-shaped CV.} \\
+\end{tabular}
+
+\section{\protect\includegraphics[height=\fontcharht\font`W]{heart} INTERESTS AND HOBBIES}
+
+\begin{tabular}{|p{\linewidth}}
+\textbf{Technology} \\
+    \footnotesize{I am very excited about new technologies and the way they affect our life. I am also trying to “do my homework” and research which scientific facts and discoveries made possible the new technologies that come up every day. Besides the interest in technology, I might say I'm also a history person.} \\
+\end{tabular}
+
+\begin{tabular}{|p{\linewidth}}
+\textbf{Sports} \\
+    \footnotesize{I love all sports but my favorite is volleyball. I always try to find some free time for playing or just watching volleyball. I even used to play for my city’s official youth team as a high schooler but after an injury I decided to enjoy the sport only as an amateur and a fan.} \\
+\end{tabular}
+
+\begin{tabular}{|p{\linewidth}}
+\textbf{Reading} \\
+    \footnotesize{My favorite genre is sci-fi and that’s because it helps me get my mind away from the everyday tasks and enjoy some recreation through reading. I also like to read philosophy,  classic and historic literature.} \\
+\end{tabular}
+
+\end{document}
